@@ -1,0 +1,686 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- ========================================================================================= -->
+    <meta name="author" content="Ralitech" />
+    <title>Ralitech - Asesoría Integral en Proyectos de Tecnología: Diseño y Desarrollo de Páginas Web, Tiendas virtuales y Software a medida; Soluciones en la nube, Consultoría Especializada, Servicios de Capacitación, Soporte Técnico, Venta de equipos de cómputo en general, Comunity Manager.</title>
+    <meta name="keywords" content="Diseño y Desarrollo de Páginas Web, tiendas virtuales, software a medida, programación, soluciones en la nube, proyectos de tecnología, asesoría, consultoría especializada, Servicios de Capacitación, inteligencia de negocios, Venta de equipos de cómputo en general, soporte técnico, comunity manager" />
+    <meta name="description" content="Ralitech brinda Asesoría Integral en Proyectos de Tecnología, de acuerdo a sus necesidades y requerimientos. Nuestros servicios incluyen:  Diseño y Desarrollo de Páginas Web, Tiendas virtuales y Software a medida; Soluciones en la nube, Consultoría Especializada, Servicios de Capacitación, Soporte Técnico, Venta de equipos de cómputo en general, Comunity Manager" />
+    <meta name="copyright" content="Ralitech" />
+    <meta name="robots" content="index,follow,all" />
+    <meta name="geo.region" content="PE" />
+    <meta name="geo.placename" content="Lima" />
+    <meta name="DC.Language" scheme="RFC1766" content="Spanish" />
+    <meta name="DC.language" scheme="ISO639-1" content="es" />
+    <link rel="shortcut icon" href="iconos/faviconRalitech.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body >
+<!-- REGION MENSAJE POPUP - INICIO -->
+    <div class="overlay" id="message">
+        <div class="popup popup-from-contac" id="popup3">    
+                    <a href="#" id="btn-cerrar-popup4" class="btn-cerrar-popup2">
+                        <img src="iconos/baseline_minimize_black_18dp.png" alt=""> 
+                    </a>          
+            <form action="mailpopup.php" method="POST" class="popupform" >               
+                <div class="form-group">
+                    <input type="text" class="form-control" name="nombreyapellidopop" id="exampleFormControlInput1" placeholder="Nombre y Apellido"  required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="correoElectronicopop"  id="exampleFormControlInput1" placeholder="Correo Electrónico" required>
+                </div>        
+                <div class="form-group">
+                    <textarea class="form-control" name="mensajepop"  id="exampleFormControlTextarea1" placeholder="¿En que podemos ayudarle?" rows="3"  required></textarea>
+                </div>           
+                <button type="button" class="btn btn-light full-width"  name="enviar" value="Enviar" >Enviar</button>
+            </form>            
+             <p class="footer-message"><small>&copy;Ralitech</small></p>
+        </div>
+    </div>
+<!-- REGION MENSAJE POPUP - FIN -->
+
+<!-- REGION MENSAJERIA - INICIO -->
+    <div class="fab">
+        <img src="images/ICONO_Correo004.png" alt="">
+    </div>
+    <div class="box">
+        <a href="https://m.me/ralitechSH" target="_blank" class="item item1"><img src="images/ICONO_MessengerOriginal.png" alt="" id="messenger"></a>
+        <a href="https://api.whatsapp.com/send?phone=51958968525"  target="_blank" class="item item3"><img src="images/ICONO_WhatsAppOriginal.png" alt=""></a>
+        <a id="mensajepopup" class="item item4"><img src="images/ICONO_RalitechSinFondo.png" alt=""></a>
+    </div>      
+<!-- REGION MENSAJERIA - FIN -->
+
+<!-- REGION BARRA DE NAVEGACION - IMAGEN PRINCIPAL CARRUSEL - INICIO -->    
+    <section id="imagenPrincipal">
+        <div class="content-center topmargin-lg">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>    
+                <div class="carousel-inner">   
+                    <!-- REGION BARRA DE NAVEGACION - INICIO -->   
+                    <nav class="navbar navbar-expand-lg fixed-top animated pulse lightSpeedIn" id="menu" >
+                        <div class="container">
+                            <a class="navbar-brand" href="http://www.ralitech.pe">
+                                <img src="images/LogoRalitech.png" id="logoRalitech"class="logo logo-brand" alt="LogoRalitech" >
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                                <i class="icon ion-md-menu"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">                              
+                                <ul class="nav nav-pills navbar-nav ml-auto">                                  
+                                    <li class="nav-item">
+                                        <a class="nav-link animated bounceInLeft slower" href="#imagenPrincipal">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link animated bounceInLeft slower" href="#nosotros">Nosotros</a>
+                                    </li>                       
+                                    <li class="nav-item dropdown" id="navproducto">
+                                        <a class=" nav-link dropdown-toggle animated bounceInLeft slower" id="productosindex" href="#productos">Productos</a>                                      
+                                        <div class="dropdown-menu" id="productopack">
+                                          <a class="dropdown-item" href="productosSoluciones.html">Soluciones</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="productosServicios.html">Servicios</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="productosEquipo.html">Equipos</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="productosSocialMediaMarketing.html">Social Media Marketing</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link animated bounceInLeft slower" href="#blog">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link animated bounceInLeft slower" href="#contactenos">Contáctenos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav> 
+                    <!-- REGION BARRA DE NAVEGACION - FIN -->    
+                    
+                    <!-- REGION IMAGEN PRINCIPAL CARRUSEL - INICIO -->                  
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/IMAGEN_Slider_Nosotros.jpg" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption asesoriaInte-position text-center">
+                                <h2>Asesoría Integral en Proyectos de Tecnología</h2>
+                                <p>
+                                    Analizar y asesorar a cada cliente y usuario final, poder cubrir todos sus requerimientos, expectativas y necesidades en base a modelos de negocio exitosos.
+                                </p>
+                                <p><a class="btn btn-lg btn-light" href="#nosotros" role="button">Nosotros</a></p>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/IMAGEN_Slider_Productos.jpg" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                                <h2>Productos</h2>
+                                <p>
+                                    Brindamos diferentes tipos de soluciones, servicios y equipos; de acuerdo a las necesidades y requerimientos de su empresa.
+                                </p>
+                                <p><a class="btn btn-lg btn-light" href="#productos" role="button">Productos</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/IMAGEN_Slider_Blog.jpg" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                                <h2>Blog</h2>
+                                <p>
+                                    Comentarios, noticias y muchas otras novedades.
+                                </p>
+                                <p><a class="btn btn-lg btn-light" href="#blog" role="button">Blog</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/IMAGEN_Slider_Contactenos.jpg" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption text-center">
+                                <h2>Contáctenos</h2>
+                                <p>
+                                    Estamos donde te encuentres y en el momento que nos necesites. Con gusto atenderemos todas tus dudas y recibiremos todos tus comentarios. 
+                                </p>
+                                <p><a class="btn btn-lg btn-light" href="#contactenos" role="button">Contactenos</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- REGION IMAGEN PRINCIPAL CARRUSEL - INICIO -->  
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+<!-- REGION IMAGEN PRINCIPAL CARRUSEL - FIN -->
+
+<!-- REGION NOSOTROS - INICIO -->
+    <section id="nosotros" >
+        <div class="container-fluid">
+            <div class="content-center">
+                <h2>Nosotros</h2>
+                <p class="float-none">Ralitech es una empresa peruana con más 10 años en el mercado. Dedicada en sus inicios a la venta, reparación y mantenimiento de computadores, y partes en general; instalación de redes de oficinas y cabinas de internet. Hace unos años decidimos integrar al rubro original de la empresa, el desarrollo y consultoría de soluciones en Software, Social Media Marketing, automatización de procesos e Inteligencia de Negocios.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <a class="btn btn-nos btn-dark" id="proposito">Propósito</a>
+                    </div>             
+                    <div class="col-md-4">
+                        <a  class="btn btn-nos btn-dark" id="mision">Misión</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a  class="btn btn-nos btn-dark" id="vision">Visión</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- REGION NOSOTROS POPUP - INICIO -->
+    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup">
+        <div class="overlay" id="proposito1">   
+            <div class="popup" id="popup">
+                <h3>Propósito</h3>
+                <p class="textpopup">Somos un grupo de trabajo joven, dinámico, de innovación tecnológica y gran competitividad. Donde nuestro único objetivo es la creación y desarrollo de nuevos productos y soluciones, los cuales serán presentados e implementados en los diferentes sectores de la industria.</p>
+            </div>
+        </div>
+    </a>
+    <a href="#" id="btn-cerrar-popup1" class="btn-cerrar-popup">
+        <div class="overlay" id="mision1">
+            <div class="popup" id="popup1">
+                <h3>Misión</h3>
+                <p class="textpopup">Analizar y asesorar a cada cliente y usuario final, poder cubrir todos sus requerimientos, expectativas y necesidades en base a modelos de negocio exitosos.</p>
+            </div>
+        </div>
+    </a>
+    <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup">
+        <div class="overlay" id="vision1">
+            <div class="popup" id="popup2">
+                <h3>Visión</h3>
+                <p class="textpopup">Estamos convencidos de poder desarrollar empresa, bajo responsabilidad, honestidad y disciplina. Puesto que, con ello, nos ubicaremos como la consultora de tecnología más sobresaliente del mercado.</p>
+            </div>
+        </div>
+    </a>
+    <!-- REGION NOSOTROS POPUP - FIN -->
+<!-- REGION NOSOTROS - FIN -->
+
+<!-- REGION PRODUCTOS - INICIO -->     
+    <section id="productos">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- Primer Bloque -->
+                    <div class="container">
+                        <div class="content-center">
+                            <h2>Productos</h2>                
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosSoluciones.html" class="btn">
+                                                <div><i class="fas fa-cogs"></i></div>
+                                                <h5 class="card-title">Soluciones</h5>
+                                                <p>Somos especialistas en los diferentes lenguajes de programación de última generación. Analizamos, diseñamos e implementamos la mejor arquitectura de soluciones que se aplique a cada proyecto.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosServicios.html" class="btn">
+                                                <div><i class="fas fa-users"></i></div>
+                                                <h5 class="card-title">Servicios</h5>
+                                                <p>Ofrecemos nuestro conocimiento y experiencia para que su empresa sea más eficiente y rentable. Contamos con servicios de capacitación especializada y entrenamiento en el manejo de nuevas tecnologías.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosEquipo.html" class="btn">
+                                                <div><i class="fas fa-microchip"></i></div>
+                                                <h5 class="card-title">Equipos</h5>
+                                                <p>Estamos siempre listos para atenderlo cuando se presente cualquier problema técnico. Disponemos del producto informático que usted como usuario o empresa necesita o requiere.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- Segundo Bloque -->
+                    <div class="container">
+                        <div class="content-center">
+                            <h2>Productos</h2>
+                            <div class="row">    
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosSocialMediaMarketing.html" class="btn">
+                                                <div><i class="fas fa-rocket"></i></div>
+                                                <h5 class="card-title">Social Media Marketing</h5>
+                                                <p>Quisiera mejorar su presencia entres sus seguidores y clientes potenciales, puesto que con ello podrá generar proximidad hacia ellos y elevar el número de ventas. Nosotros lo asesoramos.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosSoluciones.html" class="btn">
+                                                <div><i class="fas fa-cogs"></i></div>
+                                                <h5 class="card-title">Soluciones</h5>
+                                                <p>Somos especialistas en los diferentes lenguajes de programación de última generación. Analizamos, diseñamos e implementamos la mejor arquitectura de soluciones que se aplique a cada proyecto.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosServicios.html" class="btn">
+                                                <div><i class="fas fa-users"></i></div>
+                                                <h5 class="card-title">Servicios</h5>
+                                                <p>Ofrecemos nuestro conocimiento y experiencia para que su empresa sea más eficiente y rentable. Contamos con servicios de capacitación especializada y entrenamiento en el manejo de nuevas tecnologías.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- Tercer Bloque -->
+                    <div class="container">
+                        <div class="content-center">
+                            <h2>Productos</h2>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosEquipo.html" class="btn">
+                                                <div><i class="fas fa-microchip"></i></div>
+                                                <h5 class="card-title">Equipos</h5>
+                                                <p>Estamos siempre listos para atenderlo cuando se presente cualquier problema técnico. Disponemos del producto informático que usted como usuario o empresa necesita o requiere.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosSocialMediaMarketing.html" class="btn">
+                                                <div><i class="fas fa-rocket"></i></div>
+                                                <h5 class="card-title">Social Media Marketing</h5>
+                                                <p>Quisiera mejorar su presencia entres sus seguidores y clientes potenciales, puesto que con ello podrá generar proximidad hacia ellos y elevar el número de ventas. Nosotros lo asesoramos.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosSoluciones.html" class="btn">
+                                                <div><i class="fas fa-cogs"></i></div>
+                                                <h5 class="card-title">Soluciones</h5>
+                                                <p>Somos especialistas en los diferentes lenguajes de programación de última generación. Analizamos, diseñamos e implementamos la mejor arquitectura de soluciones que se aplique a cada proyecto.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- Cuarto Bloque -->
+                    <div class="container">
+                        <div class="content-center">
+                            <h2>Productos</h2>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosServicios.html" class="btn">
+                                                <div><i class="fas fa-users"></i></div>
+                                                <h5 class="card-title">Servicios</h5>
+                                                <p>Ofrecemos nuestro conocimiento y experiencia para que su empresa sea más eficiente y rentable. Contamos con servicios de capacitación especializada y entrenamiento en el manejo de nuevas tecnologías.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosEquipo.html" class="btn">
+                                                <div><i class="fas fa-microchip"></i></div>
+                                                <h5 class="card-title">Equipos</h5>
+                                                <p>Estamos siempre listos para atenderlo cuando se presente cualquier problema técnico. Disponemos del producto informático que usted como usuario o empresa necesita o requiere.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <a href="productosSocialMediaMarketing.html" class="btn">
+                                                <div><i class="fas fa-rocket"></i></div>
+                                                <h5 class="card-title">Social Media Marketing</h5>
+                                                <p>Quisiera mejorar su presencia entres sus seguidores y clientes potenciales, puesto que con ello podrá generar proximidad hacia ellos y elevar el número de ventas. Nosotros lo asesoramos.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span  class="atras carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="next carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+<!-- REGION PRODUCTOS - FIN --> 
+
+<!-- REGION BLOG - INICIO -->
+    <section id="blog">
+        <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- Primer Bloque -->
+                    <div class="container">
+                        <div class="content-center">
+                            <h2>Blog</h2>                        
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <a href="blog.html#blog1">
+                                    <div class="blog-contenedor card">
+                                        <div class="card-body">
+                                            <div class="block-img-blog"> 
+                                                <img src="imagesBlog/HUAWEIMatePadPro.jpg" alt="" class="imgBlog">
+                                            </div>
+                                            <h5 class="card-title">HUAWEI MatePad Pro: la tablet que se adecúa a tu rutina de trabajo</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="blog.html#blog2">
+                                    <div class="blog-contenedor card">
+                                        <div class="card-body">
+                                            <div class="block-img-blog"> 
+                                                <img src="imagesBlog/014001_957378.jpg" alt="" class="imgBlog">
+                                            </div>
+                                            <h5 class="card-title">Conoce un nuevo espacio web de orientación para escolares</h5>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="blog.html#blog3"> 
+                                    <div class="blog-contenedor card">
+                                        <div class="card-body">
+                                            <div class="block-img-blog"> 
+                                                <img src="imagesBlog/410041_957791.png" alt="" class="imgBlog">
+                                            </div> 
+                                            <h5 class="card-title">Amazon implementa Inteligencia Artificial en sus almacenes para vigilar el distanciamiento de los empleados</h5>
+                                        </div>
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- Segundo Bloque -->
+                    <div class="container">
+                        <div class="content-center">
+                            <h2>Blog</h2>
+                            <div class="row">    
+                                <div class="col-md-4">
+                                    <a href="blog.html#blog4">
+                                        <div class="blog-contenedor card">                                        
+                                            <div class="card-body">
+                                                <div class="block-img-blog"> 
+                                                    <img src="imagesBlog/134013_957583.png" alt="" class="imgBlog"></div> 
+                                                <h5 class="card-title">¿Culpa de Anonymous? ¿Por qué se cayeron las redes sociales y los servicios de telefonía en EE. UU.?</h5>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>    
+                                <div class="col-md-4">
+                                    <div class="blog-contenedor card">
+                                        <a href="blog.html#blog5"> 
+                                            <div class="card-body">
+                                                <div class="block-img-blog"><img src="imagesBlog/084908_957051.png" alt="" class="imgBlog"></div>
+                                                <h5 class="card-title">Programadores contra el racismo: GitHub quiere erradicar ‘blacklist’, ‘slave’ y otros términos</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>    
+                                <div class="col-md-4">
+                                    <div class="blog-contenedor card">
+                                        <a href="blog.html#blog6">
+                                            <div class="card-body">
+                                                <div class="block-img-blog"> <img src="imagesBlog/000800_956823.jpg" alt="" class="imgBlog"></div>
+                                                <h5 class="card-title">¿Por qué las antenas de telecomunicaciones son mimetizadas como árboles en el país?</h5>
+                                            </div>
+                                        </a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!-- Tercer Bloque -->
+                    <div class="container">
+                        <div class="content-center">
+                            <h2>Blog</h2>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="blog-contenedor card">
+                                        <a href="blog.html#blog7" >
+                                            <div class="card-body">
+                                                <div class="block-img-blog">
+                                                    <img src="imagesBlog/394939_956225.jpg"  class="imgBlog">
+                                                </div>
+                                                <h5 class="card-title">"Basta ya de mitos": MTC confirma que no hay antenas 5G en el país</h5>                                 
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>    
+                                <div class="col-md-4">
+                                    <div class="blog-contenedor card"> 
+                                        <a href="blog.html#blog8">
+                                            <div class="card-body">
+                                                <div class="block-img-blog"> 
+                                                    <img src="imagesBlog/595459_954722.jpg" alt="" class="imgBlog">
+                                                </div>
+                                                <h5 class="card-title">Agencia de seguridad estadounidense está creando un súper hardware y te recompensará si logras hackearlo</h5>                                
+                                            </div>
+                                        </a> 
+                                    </div>
+                                </div>    
+                                <div class="col-md-4">
+                                    <div class="blog-contenedor card">
+                                        <a href="blog.html#blog9">
+                                            <div class="card-body">
+                                                <div class="block-img-blog"> 
+                                                    <img src="imagesBlog/394239_954279.jpg" alt="" class="imgBlog">
+                                                </div>
+                                                <h5 class="card-title">Un nuevo y misterioso ransomware ataca a los sistemas de control industrial</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade1" role="button" data-slide="prev">
+                <span class="atras carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade1" role="button" data-slide="next">
+                <span class="next carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+<!-- REGION BLOG - FIN -->
+
+<!-- REGION CONTACTENOS - INICIO -->
+    <section id="contactenos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 topmargin-sm">
+                    <h2>Contáctenos</h2>
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.0064692207357!2d-77.0350832851868!3d-12.111709391424043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9c2d78ce90a5bf1!2sRalitech!5e0!3m2!1ses!2spe!4v1590460116661!5m2!1ses!2spe" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+                    </p>
+                </div>
+       
+                <form action="mail.php" method="POST" class="col-md-6 topmargin-sm" a>            
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="contactenosNombre" id="" v-model="from_name" placeholder="Nombre" minlength="1" maxlength="30" required></imput>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="contactenosApellido" id=""  v-model="subject" placeholder="Apellido" minlength="1" maxlength="50" required ></imput>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="tel" class="form-control" name="contactenosNumeroMovil" id="contactenosNumeroMovil" placeholder="Teléfono Móvil (Ejem: 999-999-999)" minlength="8" maxlength="9" required ></imput>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="contactenosCorreoElectronico" id="" v-model="from_email" placeholder="Correo Electrónico (Ejem: nombre@dominio.com)" minlength="8" maxlength="50" required ></imput>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="contactenosEmpresaDescripcion" id="" v-model="message" placeholder="Empresa" maxlength="100"></imput>
+                            </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea  name="contactenosMensaje" id="" class="form-control" v-model="message" placeholder="Mensaje...." rows="4" cols="100" maxlength="300"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" name="enviar" value="Enviar" onclick="enviar()" class="btn btn-light full-width"></a>                           
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+<!-- REGION CONTACTENOS - FIN -->
+
+<!-- REGION FOOTER - INICIO -->
+    <section id="footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h3></h3>
+                        <div class="footer-widget-content">  
+                            <img src="images/logoRalitechBlanco.png" id="logoRalitechBlanco" class="logo logo-brand" alt="LogoRalitechBlanco">                      
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h3>Mantente en contacto</h3>
+                        <div class="footer-widget-content">
+                            <a href="mailto:contactenos@ralitech.pe"><i class="fas fa-envelope"></i>  contactenos@ralitech.pe</a>
+                            <p><a href="tel:+51958968525"><i class="fas fa-mobile-alt"></i>  (+51) 958968525</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="footer-widget">
+                        <h3>Siguenos</h3>
+                        <div class="footer-widget-content">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="https://www.instagram.com/ralitechsh/?hl=es-la" target="_blank"><i class = "icon ion-logo-instagram"></i>  Intagram</a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/RalitechSH" target="_blank"><i class = "icon ion-logo-twitter"></i>  Twitter</a></li>
+                                <li class="list-inline-item"><a href="#"><i class="icon ion-logo-youtube" target="_blank"></i>  Youtube</a></li>
+                                <li class="list-inline-item"><a href="https://www.facebook.com/ralitechSH/" target="_blank"><i class = "icon ion-logo-facebook"></i>  Facebook</a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/company/ralitech" target="_blank"><i class = "icon ion-logo-linkedin" ></i>  Linkedin</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+            <!-- Copyright INICIO -->
+            <div class="row">
+                <small>&copy; Copyright 2020 | Todos los derechos reservados | Diseño web: ralitech.pe</small>
+            </div>
+             <!-- Copyright FIN -->
+        </div>
+    </section>  
+<!-- REGION FOOTER - FIN -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/pop-up.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/pop-up_mensaje.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>     
+</body>
+
+</html>

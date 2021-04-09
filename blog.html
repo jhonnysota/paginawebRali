@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- ========================================================================================= -->
+    <meta name="author" content="Ralitech" />
+    <title>Ralitech - Asesoría Integral en Proyectos de Tecnología: Diseño y Desarrollo de Páginas Web, Tiendas virtuales y Software a medida; Soluciones en la nube, Consultoría Especializada, Servicios de Capacitación, Soporte Técnico, Venta de equipos de cómputo en general, Comunity Manager.</title>
+    <meta name="keywords" content="Diseño y Desarrollo de Páginas Web, tiendas virtuales, software a medida, programación, soluciones en la nube, proyectos de tecnología, asesoría, consultoría especializada, Servicios de Capacitación, inteligencia de negocios, Venta de equipos de cómputo en general, soporte técnico, comunity manager" />
+    <meta name="description" content="Ralitech brinda Asesoría Integral en Proyectos de Tecnología, de acuerdo a sus necesidades y requerimientos. Nuestros servicios incluyen:  Diseño y Desarrollo de Páginas Web, Tiendas virtuales y Software a medida; Soluciones en la nube, Consultoría Especializada, Servicios de Capacitación, Soporte Técnico, Venta de equipos de cómputo en general, Comunity Manager" />
+    <meta name="copyright" content="Ralitech" />
+    <meta name="robots" content="index,follow,all" />
+    <meta name="geo.region" content="PE" />
+    <meta name="geo.placename" content="Lima" />
+    <meta name="DC.Language" scheme="RFC1766" content="Spanish" />
+    <meta name="DC.language" scheme="ISO639-1" content="es" />
+    <link rel="shortcut icon" href="iconos/faviconRalitech.ico" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- REGION BARRA DE NAVEGACION - INICIO -->   
+    <nav class="navbar navbar-expand-lg fixed-top animated pulse lightSpeedIn" id="menu" >
+        <div class="container">
+            <a class="navbar-brand" href="http://www.ralitech.pe">
+                <img src="images/LogoRalitech.png" id="logoRalitech"class="logo logo-brand" alt="LogoRalitech" >
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <i class="icon ion-md-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">                              
+                <ul class="nav nav-pills navbar-nav ml-auto">                                  
+                    <li class="nav-item">
+                        <a class="nav-link animated bounceInLeft slower" href="#imagenPrincipal">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animated bounceInLeft slower" href="#nosotros">Nosotros</a>
+                    </li>                       
+                    <li class="nav-item dropdown" id="navproducto">
+                        <a class=" nav-link dropdown-toggle animated bounceInLeft slower" id="productosindex" href="#productos">Productos</a>                                      
+                        <div class="dropdown-menu" id="productopack">
+                        <a class="dropdown-item" href="productosSoluciones.html">Soluciones</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="productosServicios.html">Servicios</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="productosEquipo.html">Equipos</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="productosSocialMediaMarketing.html">Social Media Marketing</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animated bounceInLeft slower" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animated bounceInLeft slower" href="#contactenos">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+<!-- REGION BARRA DE NAVEGACION - FIN -->    
+
+<!-- REGION MENSAJE POPUP - INICIO -->
+    <div class="overlay" id="message">
+        <div class="popup popup-from-contac" id="popup3">    
+                    <a href="#" id="btn-cerrar-popup4" class="btn-cerrar-popup2">
+                        <img src="iconos/baseline_minimize_black_18dp.png" alt=""> 
+                    </a>          
+            <form action="mailpopup.php" method="POST" class="popupform" >               
+                <div class="form-group">
+                    <input type="text" class="form-control" name="nombreyapellidopop" id="exampleFormControlInput1" placeholder="Nombre y Apellido"  required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="correoElectronicopop"  id="exampleFormControlInput1" placeholder="Correo Electrónico" required>
+                </div>        
+                <div class="form-group">
+                    <textarea class="form-control" name="mensajepop"  id="exampleFormControlTextarea1" placeholder="¿En que podemos ayudarle?" rows="3"  required></textarea>
+                </div>           
+                <button type="button" class="btn btn-light full-width"  name="enviar" value="Enviar" >Enviar</button>
+            </form>            
+            <p class="footer-message"><small>&copy;Ralitech</small></p>
+        </div>
+    </div>
+<!-- REGION MENSAJE POPUP - FIN -->
+
+<!-- REGION MENSAJERIA - INICIO -->
+    <div class="fab">
+        <img src="images/ICONO_Correo004.png" alt="">
+    </div>
+    <div class="box">
+        <a href="https://m.me/ralitechSH" target="_blank" class="item item1"><img src="images/ICONO_MessengerOriginal.png" alt="" id="messenger"></a>
+        <a href="https://api.whatsapp.com/send?phone=51958968525"  target="_blank" class="item item3"><img src="images/ICONO_WhatsAppOriginal.png" alt=""></a>
+        <a id="mensajepopup" class="item item4"><img src="images/ICONO_RalitechSinFondo.png" alt=""></a>
+    </div>      
+<!-- REGION MENSAJERIA - FIN -->
+
+<!-- REGION BLOG - INICIO -->
+    <section id="blog">
+        <div class="container">
+            <div class="content-center">
+                <h2>Blog</h2>
+                <div class="separar">
+                    <section id="blog1">
+                        <div class="row">
+                            <h4>HUAWEI MatePad Pro: la tablet que se adecúa a tu rutina de trabajo</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/campanas/publirreportaje/huawei-matepad-pro-la-tablet-que-se-adecua-a-tu-rutina-de-trabajo-noticia-1273352"  target="_blank" class="item item3"><img src="imagesBlog/HUAWEIMatePadPro.jpg" alt="" width="80%"></a>                                
+                                    <p>Su escritorio flexible permite múltiples aplicaciones para que puedas hacer zoom, arrastrar y organizar, adaptándose a tus hábitos de trabajo. | Fuente: HUAWEI</p>
+                                </div>
+                            </div>
+                            <div class="col" >
+                                <p>Conoce la tecnología innovadora de esta nueva tableta inteligente y mejora la experiencia de trabajar y estudiar en casa.</p>
+                            </div>                
+                        </div>  
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div>  
+                    </section> 
+                </div>
+                <div class="separar">
+                    <section id="blog2">
+                        <div class="row">
+                            <h4>Conoce un nuevo espacio web de orientación para escolares</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/campanas/publirreportaje/conoce-un-nuevo-espacio-web-de-orientacion-para-escolares-noticia-1273354?ref=rpp"  target="_blank" class="item item3"><img src="imagesBlog/014001_957378.jpg" alt="" width="80%"></a>                                
+                                    <p>Zona UPAO presenta una variedad de charlas de orientación vocacional y desarrollo personal. | Fuente: Shutterstock</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>Simulacros de exámenes, test vocacionales, charlas de orientación y desarrollo personal son algunos de los programas con los que cuenta este sitio virtual educativo. </p>
+                            </div>              
+                        </div> 
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div>  
+                    </section> 
+                </div> 
+                <div class="separar">
+                    <section id="blog3">
+                        <div class="row">
+                            <h4>Amazon implementa Inteligencia Artificial en sus almacenes para vigilar el distanciamiento de los empleados</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/tecnologia/mas-tecnologia/coronavirus-amazon-implementa-inteligencia-artificial-en-sus-almacenes-para-vigilar-el-distanciamiento-de-los-empleados-noticia-1273555?ref=rpp"  target="_blank" class="item item3"><img src="imagesBlog/410041_957791.png" alt="" width="80%"></a>                                
+                                    <p>Almamecenes de Amazon poseerán tecnología AI para evitar contagios de COVID-19. | Fuente: Amazon</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>Una pantalla de Realidad Aumentada con Inteligencia Artificial permite que los trabajadores sepan si están respetando el distanciamiento para evitar contagios de COVID-19.</p>
+                            </div>              
+                        </div> 
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div> 
+                    </section> 
+                </div>
+                 <div class="separar">
+                    <section id="blog4">
+                        <div class="row">
+                            <h4>¿Culpa de Anonymous? ¿Por qué se cayeron las redes sociales y los servicios de telefonía en EE. UU.?</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/tecnologia/mas-tecnologia/ataque-ddos-por-que-se-cayeron-las-redes-sociales-y-los-servicios-de-telefonia-en-ee-uu-este-lunes-anonymous-noticia-1273469"  target="_blank" class="item item3"><img src="imagesBlog/134013_957583.png" alt="" width="80%"></a>                                
+                                    <p>Así lucían los mapas de calor de reportes de conectividad de los servicios en el país norteamericano. | Fuente: DownDetector</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    Este lunes 15 de junio, Estados Unidos pasó una gran cantidad de problemas de comunicación debido a la caída de las operadoras más importantes de telefonía e internet en el país. Al mismo tiempo, las redes sociales Facebook, Instagram y el servicio de mensajería Messenger también sufrían problemas de conectividad. Y todo estalló cuando Anonymous empezó a tuitear al respecto.
+                                    
+                                    Para el grupo hacktivista, esta caída se trataba de uno de los mayores ataques DDoS de la historia hacia los servidores de Estados Unidos. Para comprobarlo, mostraron mapas de calor de los ataques.</p>
+                            </div>              
+                        </div> 
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div> 
+                    </section>  
+                </div>
+                <div class="separar">
+                    <section id="blog5">
+                        <div class="row">
+                            <h4>Programadores contra el racismo: GitHub quiere erradicar ‘blacklist’, ‘slave’ y otros términos</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/tecnologia/mas-tecnologia/racismo-github-quiere-erradicar-blacklist-slave-y-otros-terminos-con-connotacion-racista-george-floyd-black-lives-matter-noticia-1273169"  target="_blank" class="item item3"><img src="imagesBlog/084908_957051.png" alt="" width="80%"></a>                                
+                                    <p>GitHub ha iniciado un proceso de reemplazo de términos de programación asociados con el racismo | Fuente: RPP</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    El repositorio de proyectos GitHub, propiedad de Microsoft, ha iniciado una campaña de erradicación de términos con connotación racista que son frecuentemente utilizados en el entorno de la programación.
+                                    La revolución desatada tras la muerte de George Floyd y el empoderamiento de “Black Lives Matter” en las últimas semanas continúa provocando reacciones importantes en la industria tecnológica, y GitHub ha dado el paso hacia algo más enraizado: los términos usados en la programación que tienen connotaciones racistas como “esclavo”, “lista negra” y otros asociados.
+                                    Ha sido el propio Nathaniel “Nat” Friedman, CEO de GitHub, quien ha respondido a una cadena de tuits promovida por programadores en donde se mencionan los posibles términos ofensivos en los procesos de configuración.
+                                    Parte de esta nueva perspectiva busca reemplazar estos términos por otros menos ofensivos y que puedan ser interpretados de manera similar a los anteriores. Entre las propuestas destacan las siguientes:
+                                    “Main” en lugar de “Master”
+
+                                    “Allowlist” en lugar de “Whitelist”
+
+                                    “Denylist” en lugar de “Blacklist”
+
+                                    “Secondary” en lugar de “Slave”
+
+                                    Cabe señalar que esta propuesta, si bien es entusiasta, no es la primera. En 2003, el Departamento de Servicios Internos de Los Ángeles ya había solicitado una rectificación a estos términos. En esa oportunidad, Joe Sandoval – el jefe de contratos y adquisiciones de esa entidad pública – envió un comunicado a varias firmas tecnológicas para proponer un cambio en la terminología.
+                                    “Basado en la diversidad cultural y la sensibilidad del condado de Los Ángeles, esta no es una etiqueta de identificación aceptable”, señaló Sandoval como parte de la misiva.
+                                    Junto a GitHub, otros entornos como PHP Unity, AOSP, OpenSSL, Python, Chromium, Reids y otros tantos ya realizaron ajustes a términos que eran asociados a la discriminación.</p>
+                            </div>              
+                        </div> 
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div> 
+                    </section>  
+                </div>
+                <div class="separar">
+                    <section id="blog6">
+                        <div class="row">
+                            <h4>¿Por qué las antenas de telecomunicaciones son mimetizadas como árboles en el país?</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/tecnologia/mas-tecnologia/antenas-por-que-son-camufladas-como-arboles-en-el-pais-mtc-decreto-supremo-noticia-1273035"  target="_blank" class="item item3"><img src="imagesBlog/000800_956823.jpg" alt="" width="80%"></a>                                
+                                    <p>Dichas antenas han causado preocupación entre los ciudadanos. | Fuente: Facebook (Limatopías)</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    Este reglamento está en vigencia desde el 2015 y obliga a las empresas operadoras a mimetizar naturalmente a sus antenas bajo ciertos parámetros.
+                                    En medio de la pandemia del nuevo coronavirus, una gran cantidad de teorías sobre el origen y la propagación de la COVID-19 han provocado situaciones conflictivas en el país. La mayoría de ellas, propagadas por fake news y bulos, se han dirigido a las antenas 5G como las causantes de esta enfermedad que ya más de 200 mil peruanos han contraído.
+                                    El Ministerio de Transporte y Comunicaciones ha ratificado que no existen antenas 5G en el país. Su implementación aún está prevista para mediados de 2021 y 2022. Sin embargo, aún muchas personas consideran que se está tratando de ocultar información al respecto. Una de sus mayores dudas está en la gran cantidad de antenas instaladas y camufladas como árboles. ¿Por qué se les oculta?
+                                    La explicación está oficializada. De acuerdo con el anexo 2 del Decreto Supremo N° 003-2015-MTC que modifica el reglamento de la Ley N° 29022 (puede ser leída con detenimiento en este enlace), las empresas de telecomunicaciones deben mimetizar las antenas en armonía con el entorno para minimizar el impacto visual en zonas urbanas.
+                                    “Con la finalidad de minimizar el impacto visual de la Infraestructura de Telecomunicaciones, las empresas operadoras deberán privilegiar el uso de las alternativas tecnológicas que se describen a continuación o de similares características, sobre la base de las mejores prácticas internacionalmente aceptadas en materia de mimetización, armonía estética con el entorno y edificaciones circundantes e integración al paisaje urbano”, menciona.
+                                    Esta modificación pone como estándar que las antenas de más de 10 metros de altura en zona urbana deberán utilizar “mimetizaciones naturales”, es decir, asemejarse al ambiente verde de los árboles.
+                                    Este tipo de mimetización busca asemejarse a palmeras, pinos o cipreses: “El camuflaje tipo palmera debe cubrir la totalidad de los equipos instalados en el monopolo (sistema radiante, antena de microondas (de ser el caso), cables coaxiales, fibras ópticas, etc.), para lo cual debe utilizar el número de ramas que sean necesarias”.
+                                    Las antenas de menor tamaño pueden ser mimetizadas con paneles o con forma de tanques de agua.
+                                    En declaraciones del director de Control y Supervisión de Comunicación del MTC, Carlos Maesaka, este acto, que era “voluntario”, pasó a ser obligatorio desde mediados del 2019.
+                                    De acuerdo a información remitida por las empresas operadoras al Ministerio de Transportes y Comunicaciones, a finales del 2019 existían 22,766 estaciones base (torres donde se colocan antenas) en todo el Perú. Sin embargo, se calcula que se necesitan 14,000 más, aproximadamente, para optimizar los servicios de telecomunicaciones en el país.
+                                </p>
+                            </div>              
+                        </div> 
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div> 
+                    </section> 
+                </div>
+                <div class="separar">
+                    <section id="blog7">
+                        <div class="row">
+                            <div class="row">
+                            <h4>"Basta ya de mitos": MTC confirma que no hay antenas 5G en el país</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/tecnologia/mas-tecnologia/antenas-5g-en-peru-mtc-confirma-que-no-hay-infraestructura-5g-en-el-pais-y-no-hay-relacion-entre-coronavirus-y-la-red-covid-19-noticia-1272765"  target="_blank" class="item item3"><img src="imagesBlog/394939_956225.jpg" alt="" width="80%"></a>                                
+                                    <p>Las antenas 5G aún no han sido implementadas en el país. | Fuente: Difusión</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    El Ministerior de Transporte y Comunicaciones exhorta a los ciudadanos a no caer en teorías conspirativas.
+                                    La pandemia del nuevo coronavirus ha provocado una gran ola de desinformación, bulos y fake news. La más fuerte de ellas es la teoría de conspiración sobre las antenas 5G, la nueva tecnología de conectividad que se está implementando en el mundo, que afirma que la COVID-19 viene siendo propagado con ellas. Y el caso se agrava cuando técnicos de antenas se vuelven rehenes de la población debido a esta información errónea.
+                                    El Ministerio de Transportes y Comunicaciones (MTC) ha sido claro en señalar dos puntos importantes sobre el 5G en el país. El primero, y cuyo dato fue corroborado por un representante del ministerio a RPP Noticias este viernes, no existe ninguna antena 5G en el país hasta el momento ni se está llevando a cabo la implementación de ellas durante la etapa de confinamiento social en el país.
+                                    Esta información también fue explicada nuevamente por la directora de Fiscalizaciones y Sanciones en Comunicaciones, Patricia Díaz, durante la charla virtual “Rompiendo mitos, antes buena onda”, organizada por el MTC: “No existen antenas 5G en el país y que mucho menos estas estructuras guardan relación con el COVID-19”.
+                                    Precisamente, el segundo punto señalado va por dicho lado: así existieran, no tendría que haber relación entre ellas y la pandemia.
+                                    “Basta ya de los mitos que las antenas de telecomunicaciones dan cáncer o enfermedades. Inclusive que éstas tienen que ver con la pandemia del coronavirus. No existe investigación científica que sustente en modo alguno que las antenas tienen alguna relación con el cáncer, el coronavirus o cualquier otra enfermedad”, afirmó Patricia Diaz. 
+                                </p>
+                            </div>              
+                        </div> 
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div>              
+                        </div> 
+                    </section> 
+                </div>
+                <div class="separar">
+                    <section id="blog8">
+                        <div class="row">
+                            <h4>Agencia de seguridad estadounidense está creando un súper hardware y te recompensará si logras hackearlo</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/tecnologia/mas-tecnologia/darpa-agencia-de-seguridad-estadounidense-esta-creando-un-super-hardware-imposible-de-hackear-noticia-1272076?ref=rpp"  target="_blank" class="item item3"><img src="imagesBlog/595459_954722.jpg" alt="" width="80%"></a>                                
+                                    <p>Agencia de seguridad estadounidense crea un súper hardware imposible de hackear. | Fuente: Unsplash</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    La Agencia de Proyectos de Investigación Avanzados de Defensa, más conocido por su acrónimo DARPA, es una extensión del Departamento de Defensa de Estados Unidos y responsable del desarrollo de nueva tecnología militar.
+                                    Esta importante agencia de investigación del Pentágono alardea de haber desarrollado una nueva tecnología que hará que las máquinas de votación, las bases de datos médicas y otros sistemas importantes sean mucho más seguros contra ataques cibernéticos.
+                                    La agencia, que ayudó en la creación del GPS e Internet, está lanzando un concurso para que los hacker éticos intenten penetrar esta nueva tecnología antes de su lanzamiento al público. Según LMTOnline, DARPA está ofreciendo premios en efectivo para cualquiera que encuentre fallas.
+                                    Esta nueva tecnología se basa en una reingeniería de hardware. como chips y circuitos de computadora, de modo que los procesos clásicos de los hackers queden obsoletos. Este nuevo modelo tecnológico funciona de una forma distinta al enfoque estándar de las empresas tecnológicas, que suelen lanzar parches por cada vez que se descubre una brecha de seguridad.
+                                    Si la industria informática adopta esta nueva tecnología, los investigadores de DARPA creen que esto puede cambiar el rumbo en las batallas contra los piratas informáticos, que siempre han estado un paso adelante desde el nacimiento de Internet.
+                                </p>
+                            </div>              
+                        </div> 
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div> 
+                    </section> 
+                </div>
+                <div class="separar">
+                    <section id="blog9">
+                        <div class="row">
+                            <h4>Un nuevo y misterioso ransomware ataca a los sistemas de control industrial</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div >    
+                                    <a class="btn" href="https://rpp.pe/tecnologia/mas-tecnologia/virus-un-nuevo-y-misterioso-ransomware-ataca-a-los-sistemas-de-control-industrial-ekans-noticia-1271849?ref=rpp"  target="_blank" class="item item3"><img src="imagesBlog/394239_954279.jpg" alt="" width="80%"></a>                                
+                                    <p>Un nuevo ransomware llamado EKANS, y desarrollado por ciberdelincuentes, apunta a sistemas de control industriales.</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p>
+                                    Los ransomware es utilizado por los ciberdelincuentes para cifrar archivos y forzar a los usuarios a realizar un pago rescatar los documentos secuestrados.
+                                    Un ransomware muy famoso fue el llamado WannaCrypt, que encriptaba tus archivos y te pedía un rescate de US$300 transferidos a una billetera de Bitcoin mientras el monto aumentaba con el pasar de los días. Hasta microsoft tuvo que crear un parche de seguridad para Windows XP.
+                                    Sin embargo, los tipos de ransomware que atacan a sistema industriales son muy raros en el mundo de la piratería informática. Algunos de estos virus informáticos han destruido las centrifugadoras de enriquecimiento nuclear en Irán y han causado apagón en Ucrania.
+                                    Según la información de Wired, ahora han surgido ransomware muchos más contundentes que matan los procesos de software del objetivo, cifrar los datos subyacentes y mantenerlos como rehenes.
+                                    Investigadores de empresas de seguridad, como Sentinel One y Dragos, han estudiado un código llamado EKANS que se adueña de sistemas industriales, desde refinerías de petróleo hasta redes eléctricas para instalaciones de fabricación.
+                                    EKANS está diseñado para terminar 64 procesos de software diferentes en las computadoras de las víctimas. Vitali Kremez, investigador de Sentinel One publicó el descubrimiento de EKANS a principios de este mes y lo publicó en su cuenta de Twitter.
+                                    Vitali argumenta que los sistemas de control industrial son los favoritos para los atacantes de ransomware. "Estas máquinas de sistemas de control industrial son algunos de los objetivos de mayor valor", dice Kremez. "Hay mucha urgencia y la disponibilidad de datos es el núcleo de la misión. Por lo tanto, hay muchos incentivos para pagar a los atacantes".
+                                </p>
+                            </div>              
+                        </div> 
+                        <div class="row">
+                            <p>| Fuente: RPP |</p>
+                        </div> 
+                    </section> 
+                </div>        
+            </div>
+        </div>
+    </section>
+<!-- REGION BLOG - FIN -->
+
+<!-- REGION FOOTER - INICIO -->
+    <section id="footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h3></h3>
+                        <div class="footer-widget-content">  
+                            <img src="images/logoRalitechBlanco.png" id="logoRalitechBlanco" class="logo logo-brand" alt="LogoRalitechBlanco">                      
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h3>Mantente en contacto</h3>
+                        <div class="footer-widget-content">
+                            <a href="mailto:contactenos@ralitech.pe"><i class="fas fa-envelope"></i>  contactenos@ralitech.pe</a>
+                            <p><a href="tel:+51958968525"><i class="fas fa-mobile-alt"></i>  (+51) 958968525</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="footer-widget">
+                        <h3>Siguenos</h3>
+                        <div class="footer-widget-content">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="https://www.instagram.com/ralitechsh/?hl=es-la" target="_blank"><i class = "icon ion-logo-instagram"></i>  Intagram</a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/RalitechSH" target="_blank"><i class = "icon ion-logo-twitter"></i>  Twitter</a></li>
+                                <li class="list-inline-item"><a href="#"><i class="icon ion-logo-youtube" target="_blank"></i>  Youtube</a></li>
+                                <li class="list-inline-item"><a href="https://www.facebook.com/ralitechSH/" target="_blank"><i class = "icon ion-logo-facebook"></i>  Facebook</a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/company/ralitech" target="_blank"><i class = "icon ion-logo-linkedin" ></i>  Linkedin</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+            <!-- Copyright INICIO -->
+            <div class="row">
+                <small>&copy; Copyright 2020 | Todos los derechos reservados | Diseño web: ralitech.pe</small>
+            </div>
+            <!-- Copyright FIN -->
+        </div>
+    </section>  
+<!-- REGION FOOTER - FIN -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/pop-up.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/pop-up_mensaje.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>  
+</body>
+
+</html>

@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- ========================================================================================= -->
+    <meta name="author" content="Ralitech" />
+    <title>Ralitech - Asesoría Integral en Proyectos de Tecnología: Diseño y Desarrollo de Páginas Web, Tiendas virtuales y Software a medida; Soluciones en la nube, Consultoría Especializada, Servicios de Capacitación, Soporte Técnico, Venta de equipos de cómputo en general, Comunity Manager.</title>
+    <meta name="keywords" content="Diseño y Desarrollo de Páginas Web, tiendas virtuales, software a medida, programación, soluciones en la nube, proyectos de tecnología, asesoría, consultoría especializada, Servicios de Capacitación, inteligencia de negocios, Venta de equipos de cómputo en general, soporte técnico, comunity manager" />
+    <meta name="description" content="Ralitech brinda Asesoría Integral en Proyectos de Tecnología, de acuerdo a sus necesidades y requerimientos. Nuestros servicios incluyen:  Diseño y Desarrollo de Páginas Web, Tiendas virtuales y Software a medida; Soluciones en la nube, Consultoría Especializada, Servicios de Capacitación, Soporte Técnico, Venta de equipos de cómputo en general, Comunity Manager" />
+    <meta name="copyright" content="Ralitech" />
+    <meta name="robots" content="index,follow,all" />
+    <meta name="geo.region" content="PE" />
+    <meta name="geo.placename" content="Lima" />
+    <meta name="DC.Language" scheme="RFC1766" content="Spanish" />
+    <meta name="DC.language" scheme="ISO639-1" content="es" />
+    <link rel="shortcut icon" href="iconos/faviconRalitech.ico" />
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- REGION BARRA DE NAVEGACION - INICIO -->   
+    <nav class="navbar navbar-expand-lg fixed-top animated pulse lightSpeedIn" id="menu" >
+        <div class="container">
+            <a class="navbar-brand" href="http://www.ralitech.pe">
+                <img src="images/LogoRalitech.png" id="logoRalitech"class="logo logo-brand" alt="LogoRalitech" >
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <i class="icon ion-md-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">                              
+                <ul class="nav nav-pills navbar-nav ml-auto">                                  
+                    <li class="nav-item">
+                        <a class="nav-link animated bounceInLeft slower" href="#imagenPrincipal">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animated bounceInLeft slower" href="#nosotros">Nosotros</a>
+                    </li>                       
+                    <li class="nav-item dropdown" id="navproducto">
+                        <a class=" nav-link dropdown-toggle animated bounceInLeft slower" id="productosindex" href="#productos">Productos</a>                                      
+                        <div class="dropdown-menu" id="productopack">
+                        <a class="dropdown-item" href="productosSoluciones.html">Soluciones</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="productosServicios.html">Servicios</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="productosEquipo.html">Equipos</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="productosSocialMediaMarketing.html">Social Media Marketing</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animated bounceInLeft slower" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link animated bounceInLeft slower" href="#contactenos">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+<!-- REGION BARRA DE NAVEGACION - FIN -->    
+ 
+<!-- REGION MENSAJE POPUP - INICIO -->
+    <div class="overlay" id="message">
+        <div class="popup popup-from-contac" id="popup3">    
+                    <a href="#" id="btn-cerrar-popup4" class="btn-cerrar-popup2">
+                        <img src="iconos/baseline_minimize_black_18dp.png" alt=""> 
+                    </a>          
+            <form action="mailpopup.php" method="POST" class="popupform" >               
+                <div class="form-group">
+                    <input type="text" class="form-control" name="nombreyapellidopop" id="exampleFormControlInput1" placeholder="Nombre y Apellido"  required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="correoElectronicopop"  id="exampleFormControlInput1" placeholder="Correo Electrónico" required>
+                </div>        
+                <div class="form-group">
+                    <textarea class="form-control" name="mensajepop"  id="exampleFormControlTextarea1" placeholder="¿En que podemos ayudarle?" rows="3"  required></textarea>
+                </div>           
+                <button type="button" class="btn btn-light full-width"  name="enviar" value="Enviar" >Enviar</button>
+            </form>            
+            <p class="footer-message"><small>&copy;Ralitech</small></p>
+        </div>
+    </div>
+<!-- REGION MENSAJE POPUP - FIN -->
+
+<!-- REGION MENSAJERIA - INICIO -->
+    <div class="fab">
+        <img src="images/ICONO_Correo004.png" alt="">
+    </div>
+    <div class="box">
+        <a href="https://m.me/ralitechSH" target="_blank" class="item item1"><img src="images/ICONO_MessengerOriginal.png" alt="" id="messenger"></a>
+        <a href="https://api.whatsapp.com/send?phone=51958968525"  target="_blank" class="item item3"><img src="images/ICONO_WhatsAppOriginal.png" alt=""></a>
+        <a id="mensajepopup" class="item item4"><img src="images/ICONO_RalitechSinFondo.png" alt=""></a>
+    </div>      
+<!-- REGION MENSAJERIA - FIN -->
+
+<!-- REGION PRODUCTOS SOLUCIONES - INICIO --> 
+    <section id="productosSoluciones" >
+        <div class="container">
+            <div class="content-center">
+                <div class="content header">
+                    <h2>Soluciones</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <div class="cont-header">
+                                <a href="#item1" class="btn" id="btn-item1">
+                                    <img id="imagen" class="d-block w-100" src="images/IMAGEN_Soluciones_Software002.jpg" alt="">
+                                    <div class="cont-text">
+                                        <h4 class="card-title">Soluciones de Software</h4>
+                                     </div>
+                                </a>    
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <div class="cont-header">
+                                <a href="#item2" class="btn" id="btn-item2">
+                                    <img class="d-block w-100" src="images/IMAGEN_Soluciones_EnLaNube001.jpg" alt="">
+                                    <div class="cont-text">
+                                        <h4 class="card-title">Soluciones en la Nube</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content software" id="item1">
+                    <h3>Soluciones de Software</h3>
+                    <p>Somos especialistas en los diferentes lenguajes de programación de última generación. Analizamos, diseñamos e implementamos la mejor arquitectura de soluciones que se aplique a cada proyecto.</p>
+                    
+                    <div class="cont-item cont-soft">
+                        <h4>Diseño de Páginas WEB y Tiendas Virtuales</h4>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <img class="d-block w-100" src="images/IMAGEN_Soluciones_Software002.jpg" alt="">
+                            </div>
+                            <div class="col-md-8 col-12">
+                                <ul>
+                                    <li class="margin-li">
+                                        <h5>Diseño de Páginas WEB (LANDING PAGE) o Portales WEB (WEB SITES)</h5>
+                                        <p>Realizamos su Web corporativa, cumpliendo los estándares W3C, garantizando la correcta visualización cualquier navegador web o móvil. Aplicamos patrones de arquitectura, de diseño, de contenidos y de programación, con el objetivo de obtener la mejor posición dentro motores de búsqueda más comunes. Así mismo, nos encargamos de integrar todas las herramientas y servicios necesarios (ChatBoots, Messenger, WhatsApp, reconocimiento facial de acreditación, etc.) de acuerdo a la necesidad particular de su negocio.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Diseño de Tiendas Virtuales</h5>
+                                        <p>Realizamos su tienda virtual, teniendo como base el diseño de páginas web y aplicando E-Commerce, solución adecuada para la venta de productos Online.  Así mismo, nos encargamos de integrar todas las herramientas y servicios necesarios (pasarelas de pago, reconocimiento facial de acreditación, etc.), de acuerdo a la necesidad particular de su negocio.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Incluimos sin costo adicional un Blog o sistema de noticias y novedades, el cual se puede integrar a sus redes sociales. </p>
+                    </div>
+                    <div class="cont-item cont-soft">
+                        <h4>Desarrollo de Software</h4>
+                        <p>Todos nuestros proyectos utilizan patrones y metodologías agiles, y de Ingeniería de desarrollo de Software.</p>
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <img class="d-block w-100" src="images/IMAGEN_Soluciones_Software003.jpg" alt="">
+                            </div>
+                            <div class="col-md-8 col-12">
+                                <ul>
+                                    <li class="margin-li">
+                                        <h5>Desarrollo de Software para la Gestión de Empresa</h5>
+                                        <p>Le ofrecemos la posibilidad de obtener un sistema o aplicación, a través del cual, podrá gestionar todos los procesos de negocio en su empresa.</p>
+                                        <p>Administrar y controlar las áreas de cobranza, almacén, recursos humanos, administración y activar el flujo de seguimiento de actividades.</p>
+                                        <p>Por norma de seguridad y alta disponibilidad del sistema, contiene respaldo o backup, que se activa, al momento de presentarse algún inconveniente de conectividad.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Desarrollo de Software a Medida</h5>
+                                        <p>Ponemos a su disposición el desarrollo de sistemas a medida o personalizados, solo nos indican su necesidad o requerimiento y nosotros le entregaremos el producto terminado.</p> 
+                                        <p>Desarrollo de módulos de integración con otros proveedores mediante servicios o por consumo de lotes.</p> 
+                                        <p>Desarrollo de módulos por requerimiento unitario, que luego de acuerdo a la necesidad podrían juntarse y convertirse en un ERP.</p>                                             
+                                    </li>
+                                    <li>
+                                        <h5>Mantenimiento de Aplicativos de Software</h5>
+                                        <p>Brindamos soporte y mantenimiento, cambios o modificaciones y elaboramos documentación a sus sistemas o aplicaciones de software.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Re-Ingeniería de Aplicativos de Software</h5>
+                                        <p>Aplicamos reingeniería a sistemas o aplicaciones de software, los cuales contienen lenguajes de programación y bases de datos obsoletos, aplicando patrones contenidos en la metodología de desarrollo de software.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content cloud" id="item2">
+                    <h3>Soluciones en la Nube</h3>
+                    <p>Quisiéramos que las empresas grandes, medianas y pequeñas, cuenten con todos los beneficios que nos ofrece estar en la nube. Constituye una gran oportunidad, puesto que, ayudara a optimizar y administrar mejor las áreas o recursos de nuestra empresa, a eliminar costos innecesarios, a tener un mejor control de nuestros sistemas y aplicaciones; y todo esto manejado con la más alta seguridad.</p>
+                    <h5>Beneficios</h5>
+                    <ul>
+                        <li class="margin-li">
+                            <h5 >Rentabilidad</h5>
+                            <p>Olvídese de las inversiones y mantenimiento en hardware y licencias de software y dedique ese presupuesto a proyectos más estratégicos en su organización.</p>
+                        </li>
+                        <li>
+                            <h5>Productividad:</h5>
+                            <p>Los servicios y capacidades enriquecidas y familiares que ofrecen a su empresa, le permiten optimizar la eficacia y productividad de su organización.</p>
+                        </li>
+                        <li>
+                            <h5>Control y facilidad de gestión:</h5>
+                            <p>La sencilla consola de administración y el soporte telefónico disponible de 24x7 permite liberar carga de trabajo de los departamentos de TI, permitiéndoles focalizarse en labores más estratégicas y de mayor valor para la organización.</p>
+                        </li>
+                        <li>
+                            <h5>Mayor fiabilidad y seguridad:</h5>
+                            <p>Gracias a las sólidas funcionalidades de recuperación, copias de seguridad distribuidas globalmente y a las características de privacidad, sus datos permanecen en todo momento seguros y protegidos.</p>
+                        </li>
+                        <li>
+                            <h5>Transición por etapas:</h5>
+                            <p>Las organizaciones pueden migrar a la nube por etapas, a medida que lo requieran gracias a las opciones de implementación flexibles que ofrecen, permitiendo combinar servicios en sus instalaciones con servicios en la nube (denominados, escenarios híbridos).</p>
+                        </li>
+                    </ul>
+                    <p>Las organizaciones o empresas con necesidades avanzadas pueden optar a través de diversos planes y opciones de implementación. No obstante, el salto a la nube requiere preparación, experiencia y planes de contingencia.</p>
+                    <p>Por lo tanto, le ofrecemos soluciones integrales, las cuales le ayudara de manera rápida y sencilla, a que su empresa pueda comenzar a disfrutar de los beneficios que aporta la nube.</p>
+                    
+                      <div class="row">
+                    
+                        <div class="col-md-3 col-6">
+                            <a href="#azure"  class="solucionsoft1" id="solucionsoft1">
+                            <img  class="azureimg d-block w-100" src="images/IMAGEN_Soluciones_SoftwareEnLaNube001.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 col-6">
+                            <a href="#office" class="solucionsoft2"  id="solucionsoft2">
+                            <img  class="officeimg  d-block w-100" src="images/IMAGEN_Soluciones_SoftwareEnLaNube002.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="col-md-3 col-6">
+                            <a href="#amazon" class="solucionsoft3" id="solucionsoft3">
+                            <img  class="amazonimg  d-block w-100" src="images/IMAGEN_Soluciones_SoftwareEnLaNube003.jpg" alt="">
+                            </a>
+                        </div>
+
+
+                        <div class="col-md-3 col-6">
+                            <a href="#google" class="solucionsoft4"  id="solucionsoft4">
+                            <img  class="googleimg solucionsoft4 d-block w-100" src="images/IMAGEN_Soluciones_SoftwareEnLaNube004.jpg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <section id="azure">
+                    <div class="cont-item cont-cloud">
+                        <h4>Implementar y Mantener Microsoft Azure</h4>
+                        <p>Es un servicio de computación en la nube creado por Microsoft para construir, probar, desplegar y administrar aplicaciones y servicios mediante el uso de sus centros de datos. Proporciona software como servicio (SaaS), plataforma como servicio (PaaS) e infraestructura como servicio (IaaS) y es compatible con muchos lenguajes, herramientas y marcos de programación diferentes, incluidos software y sistemas específicos de Microsoft y de terceros.</p>
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <img class="d-block w-100" src="images/IMAGEN_Soluciones_SoftwareEnLaNube001.jpg" alt="">
+                            </div>
+                            <div class="col-md-8 col-12">
+                                <ul>
+                                    <li class="margin-li">
+                                        <h5>Backup y Restauración de información</h5>
+                                        <p>Proteja su información realizando copias de seguridad de datos, contra cualquier siniestro que se podría presentar.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Almacenamiento y manejo de Datos</h5>
+                                        <p>Amplia capacidad de almacenamiento de archivos, datos y discos.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Máquinas virtuales</h5>
+                                        <p>Aplicaciones en la nube y máquinas virtuales Windows y Linux de gran capacidad.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Base de datos</h5>
+                                        <p>SQL relacional administrada y NoSQL administrada. Aplicación de Dockers y Kubernets</p>
+                                    </li>
+                                    <li>
+                                        <h5>Análisis</h5>
+                                        <p>Distribuido que facilita los macro datos y procesamiento de datos en tiempo real.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Internet de las cosas (IOT)</h5>
+                                        <p>Conecta, supervisa y controla millones de equipos de IoT.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Red virtual</h5>
+                                        <p>Aprovisiona redes privadas, equilibra cargas y hospeda dominios DNS en Azure.</p>
+                                    </li>
+                                    <li>
+                                        <h5>Administración del directorio activo</h5>
+                                        <p>Autenticación de accesos, sincronización de directorios, gestión de usuarios e identidad.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>Beneficios</p>
+                            <ul>
+                                <li class="margin-li">
+                                    <h5 >Paga por que lo utilizas: </h5>
+                                    <p>Planifica los recursos en función de las necesidades, aprovechando la flexibilidad del alojamiento en la nube de Microsoft Azure para reducir así tu infraestructura de hardware.</p>
+                                </li>
+                                <li>
+                                    <h5>Máxima seguridad:</h5>
+                                    <p>Microsoft Azure almacena tu información en centros de datos globales, ofrece copias de seguridad cifradas, así como un potente sistema de recuperación de datos.</p>
+                                </li>
+                                <li>
+                                    <h5>Manejo de facturación:</h5>
+                                    <p>Detalles de consumo de tus suscripciones a recursos Microsoft Azure.</p>
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    </section>
+
+                    <section id="office">
+                    <div class="cont-item cont-cloud">
+                        <h4>Implementar y Mantener Microsoft 365</h4>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <img class="d-block w-100" src="images/IMAGEN_Soluciones_SoftwareEnLaNube002.jpg" alt="">
+                            </div>
+                            <div class="col-md-8 col-12">
+                                <ul>
+                                    <li class="margin-li">
+                                        <h5>PUNTO 1</h5>
+                                        <p>Texto1</p>
+                                    </li>
+                                    <li>
+                                        <h5>PUNTO 2</h5>
+                                        <p>Texto2</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   </section>
+
+                    <section id="amazon">
+
+                    <div class="cont-item cont-cloud">
+                        <h4>Implementar y Mantener Amazon AWS</h4>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <img class="d-block w-100" src="images/IMAGEN_Soluciones_SoftwareEnLaNube003.jpg" alt="">
+                            </div>
+                            <div class="col-md-8 col-12">
+                                <ul>
+                                    <li class="margin-li">
+                                        <h5>PUNTO 1</h5>
+                                        <p>Texto1</p>
+                                    </li>
+                                    <li>
+                                        <h5>PUNTO 2</h5>
+                                        <p>Texto2</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                   </section>
+
+                     <section id="google">
+                    <div class="cont-item cont-cloud">
+                        <h4>Implementar y Mantener Google Adwords</h4>
+                        <p></p>
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <img class="d-block w-100" src="images/IMAGEN_Soluciones_SoftwareEnLaNube004.jpg" alt="">
+                            </div>
+                            <div class="col-md-8 col-12">
+                                <ul>
+                                    <li class="margin-li">
+                                        <h5>PUNTO 1</h5>
+                                        <p>Texto1</p>
+                                    </li>
+                                    <li>
+                                        <h5>PUNTO 2</h5>
+                                        <p>Texto2</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- REGION PRODUCTOS SOLUCIONES - INICIO --> 
+
+<!-- REGION FOOTER - INICIO -->
+    <section id="footer" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h3></h3>
+                        <div class="footer-widget-content">  
+                            <img src="images/logoRalitechBlanco.png" id="logoRalitechBlanco" class="logo logo-brand" alt="LogoRalitechBlanco">                      
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="footer-widget">
+                        <h3>Mantente en contacto</h3>
+                        <div class="footer-widget-content">
+                            <a href="mailto:contactenos@ralitech.pe"><i class="fas fa-envelope"></i>  contactenos@ralitech.pe</a>
+                            <p><a href="tel:+51958968525"><i class="fas fa-mobile-alt"></i>  (+51) 958968525</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="footer-widget">
+                        <h3>Siguenos</h3>
+                        <div class="footer-widget-content">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="https://www.instagram.com/ralitechsh/?hl=es-la" target="_blank"><i class = "icon ion-logo-instagram"></i>  Intagram</a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/RalitechSH" target="_blank"><i class = "icon ion-logo-twitter"></i>  Twitter</a></li>
+                                <li class="list-inline-item"><a href="#"><i class="icon ion-logo-youtube" target="_blank"></i>  Youtube</a></li>
+                                <li class="list-inline-item"><a href="https://www.facebook.com/ralitechSH/" target="_blank"><i class = "icon ion-logo-facebook"></i>  Facebook</a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/company/ralitech" target="_blank"><i class = "icon ion-logo-linkedin" ></i>  Linkedin</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>                  
+            </div>
+            <!-- Copyright INICIO -->
+            <div class="row">
+                <small>&copy; Copyright 2020 | Todos los derechos reservados | Diseño web: ralitech.pe</small>
+            </div>
+            <!-- Copyright FIN -->
+        </div>
+    </section>  
+<!-- REGION FOOTER - FIN -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/pop-up.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/pop-up_mensaje.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>  
+    <script>
+        $('#btn-item1').click(function(){
+            $('#item1').toggle();
+            $('#item2').hide();
+        });
+        $('#btn-item2').click(function(){
+            $('#item2').toggle();
+            $('#item1').hide();
+        });      
+        
+        $('#solucionsoft1').click(function(){
+            $('#azure').toggle();
+            $('#office').hide();
+            $('#amazon').hide();
+            $('#google').hide();
+            
+        });      
+        $('#solucionsoft2').click(function(){
+            $('#office').toggle();
+            $('amazon').hide()
+            $('#azure').hide();
+            $('#google').hide();
+            
+        });   
+        $('#solucionsoft3').click(function(){
+            $('#amazon').toggle();
+            $('#office').hide();
+            $('#azure').hide();
+            $('#google').hide();
+            
+        });   
+        $('#solucionsoft4').click(function(){
+            $('#google').toggle()
+            $('#office').hide();
+            $('#amazon').hide();
+            $('#azure').hide();
+            
+        });   
+        
+
+
+
+    </script>
+</body>
+
+</html>
